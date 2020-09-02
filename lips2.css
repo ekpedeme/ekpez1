@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+.navbar {
+    background-color: black;
+    overflow:hidden ;
+    position: fixed ;
+    top: 0;
+    right: 0 ;
+    left: 0 ;
+}
+
+a {
+    text-align:center ;
+    text-decoration:none ;
+    color: rgb(238, 208, 213)  ;
+    padding: 14px 16px ;
+    float:right ;
+    font-size:17px ;
+}
+
+.lips {
+    float:left ;
+}
+
+.active {
+    background-color: red;
+    color: black ;
+}
+
+
+
+a:hover {
+    background-color: rgb(160, 126, 81) ;
+    color: black;
+}
+
+.content {
+    margin: auto ;
+    width :80% ;
+    padding: 150px ;
+
+
+}
+.img {
+    width:1100px ;
+    opacity: 0.1;
+    position:absolute ;
+    z-index:-1 ;
+}
